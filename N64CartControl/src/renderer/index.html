@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'" />
+    <title>N64 Cart Control</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="device">
+        <div class="device-text">
+          <strong id="statusLabel" data-i18n="status.disconnected">Cartouche non connectée</strong>
+          <span id="deviceInfo" data-i18n="status.hint"></span>
+        </div>
+      </div>
+      <div class="device-actions">
+        <div class="theme-menu">
+          <button id="btnTheme" aria-haspopup="true" aria-expanded="false" data-i18n="theme.button">Thème</button>
+          <div id="themePanel" class="theme-panel" hidden>
+            <strong data-i18n="theme.title">Habillage</strong>
+            <div class="theme-choices" id="themeChoices"></div>
+            <strong data-i18n="theme.colorTitle">Couleur</strong>
+            <div class="color-swatches" id="colorSwatches"></div>
+          </div>
+        </div>
+        <select id="langSelect" aria-label="Langue / Language">
+          <option value="fr">FR</option>
+          <option value="en">EN</option>
+        </select>
+        <button id="btnConnect" class="primary" data-i18n="btn.connect">Connecter</button>
+        <button id="btnDisconnect" data-i18n="btn.disconnect" hidden>Déconnecter</button>
+      </div>
+    </header>
+
+    <nav class="toolbar">
+      <button id="btnUp" data-i18n-title="btn.up">↑</button>
+      <button id="btnRefresh" data-i18n-title="btn.refresh">⟳</button>
+      <span class="sep"></span>
+      <button id="btnAdd" class="primary" data-i18n="btn.add">+ Ajouter des jeux</button>
+      <button id="btnMkdir" data-i18n="btn.newFolder">Nouveau dossier</button>
+      <button id="btnSystem" aria-pressed="false" data-i18n="btn.system" data-i18n-title="btn.systemTitle">
+        Fichiers système
+      </button>
+      <span class="sep"></span>
+      <button id="btnDownload" data-i18n="btn.download">Récupérer</button>
+      <button id="btnRename" data-i18n="btn.rename">Renommer</button>
+      <button id="btnDelete" class="danger" data-i18n="btn.delete">Supprimer</button>
+      <span class="spacer"></span>
+      <button id="btnReboot" data-i18n="btn.reboot">Redémarrer</button>
+      <button id="btnFirmware" data-i18n="btn.firmware" data-i18n-title="btn.firmwareTitle">Firmware…</button>
+      <button id="btnFormat" class="danger" data-i18n="btn.format">Formater</button>
+    </nav>
+
+    <div class="pathbar">
+      <div id="breadcrumb" class="breadcrumb"></div>
+      <label class="fixrom">
+        <input type="checkbox" id="optFixRom" checked />
+        <span data-i18n="opt.fixRom">Convertir les ROMs en .z64 à l'envoi</span>
+      </label>
+    </div>
+
+    <div id="managerNotice" class="notice" hidden>
+      <span data-i18n="manager.missing"></span>
+      <button id="btnInstallManager" class="primary" data-i18n="manager.add"></button>
+    </div>
+
+    <main id="dropzone" class="listing">
+      <table>
+        <thead>
+          <tr>
+            <th class="col-name" data-i18n="col.name">Nom</th>
+            <th class="col-type" data-i18n="col.type">Type</th>
+            <th class="col-size" data-i18n="col.size">Taille</th>
+          </tr>
+        </thead>
+        <tbody id="entries"></tbody>
+      </table>
+      <p id="emptyMessage" class="empty" hidden></p>
+      <div id="dropHint" class="drop-hint" data-i18n="drop.hint"></div>
+    </main>
+
+    <footer class="statusbar">
+      <span id="freeSpace"></span>
+      <span id="statusMessage" class="status-message"></span>
+    </footer>
+
+    <div id="overlay" class="overlay" hidden>
+      <div class="overlay-card">
+        <strong id="overlayLabel"></strong>
+        <div class="progress"><div id="progressBar" class="progress-bar"></div></div>
+        <span id="progressText"></span>
+      </div>
+    </div>
+
+    <div id="prompt" class="overlay" hidden>
+      <form class="overlay-card" id="promptForm">
+        <strong id="promptLabel"></strong>
+        <input type="text" id="promptInput" autocomplete="off" />
+        <div class="overlay-actions">
+          <button type="button" id="promptCancel" data-i18n="btn.cancel">Annuler</button>
+          <button type="submit" class="primary" data-i18n="btn.validate">Valider</button>
+        </div>
+      </form>
+    </div>
+
+    <script src="i18n.js"></script>
+    <script src="renderer.js"></script>
+  </body>
+</html>

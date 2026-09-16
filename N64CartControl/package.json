@@ -1,0 +1,76 @@
+{
+  "name": "n64cart-control",
+  "version": "1.0.0",
+  "description": "Explorateur de jeux N64 pour la cartouche n64cart (RP2040)",
+  "homepage": "https://github.com/pdaxrom/n64cart",
+  "main": "src/main.js",
+  "author": {
+    "name": "CSystem",
+    "email": "fix@build.linux"
+  },
+  "scripts": {
+    "build:native": "node-gyp rebuild",
+    "start": "set \"ELECTRON_RUN_AS_NODE=\" && electron ."
+  },
+  "dependencies": {
+    "node-addon-api": "^8.3.0"
+  },
+  "devDependencies": {
+    "electron": "^44.3.0",
+    "electron-builder": "^26.15.3",
+    "node-gyp": "^13.0.2"
+  },
+  "license": "BSD-3-Clause",
+  "private": true,
+  "build": {
+    "appId": "org.n64cart.control",
+    "productName": "N64CartControl",
+    "directories": {
+      "output": "../Output/app",
+      "buildResources": "Resources"
+    },
+    "files": [
+      "src/**/*",
+      "build/Release/*.node",
+      "package.json"
+    ],
+    "asarUnpack": [
+      "build/Release/*.node"
+    ],
+    "npmRebuild": false,
+    "artifactName": "${productName}-${version}-${os}-${arch}.${ext}",
+    "win": {
+      "target": [
+        "nsis",
+        "portable"
+      ]
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "artifactName": "${productName}-${version}-${os}-${arch}-setup.${ext}"
+    },
+    "linux": {
+      "target": [
+        "AppImage",
+        "deb"
+      ],
+      "category": "Utility",
+      "synopsis": "Explorateur de jeux pour la cartouche n64cart",
+      "maintainer": "CSystem <fix@build.linux>"
+    },
+    "mac": {
+      "target": [
+        "dmg",
+        "zip"
+      ],
+      "category": "public.app-category.utilities"
+    },
+    "portable": {
+      "artifactName": "${productName}-${version}-${os}-${arch}-portable.${ext}"
+    }
+  },
+  "engines": {
+    "node": ">=22.22.2"
+  }
+}

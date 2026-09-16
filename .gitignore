@@ -1,0 +1,6 @@
+SDK/
+Output/
+N64CartControl/node_modules/
+N64cart/rom/build/
+N64cart/fw/build-v3-ntsc/
+N64cart/fw/build-v3-pal/

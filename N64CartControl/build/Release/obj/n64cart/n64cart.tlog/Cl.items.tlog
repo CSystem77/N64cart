@@ -1,0 +1,15 @@
+C:\Users\CSystem\Documents\N64\N64\N64CartControl\native\src\addon.cc;C:\Users\CSystem\Documents\N64\N64\N64CartControl\build\Release\obj\n64cart\native\src\addon.obj
+C:\Users\CSystem\Documents\N64\N64\N64CartControl\native\src\cart.c;C:\Users\CSystem\Documents\N64\N64\N64CartControl\build\Release\obj\n64cart\native\src\cart.obj
+C:\Users\CSystem\Documents\N64\N64\N64CartControl\native\vendor\romfs\romfs.c;C:\Users\CSystem\Documents\N64\N64\N64CartControl\build\Release\obj\n64cart\native\vendor\romfs\romfs.obj
+C:\Users\CSystem\Documents\N64\N64\N64CartControl\native\vendor\libusb\libusb\core.c;C:\Users\CSystem\Documents\N64\N64\N64CartControl\build\Release\obj\n64cart\native\vendor\libusb\libusb\core.obj
+C:\Users\CSystem\Documents\N64\N64\N64CartControl\native\vendor\libusb\libusb\descriptor.c;C:\Users\CSystem\Documents\N64\N64\N64CartControl\build\Release\obj\n64cart\native\vendor\libusb\libusb\descriptor.obj
+C:\Users\CSystem\Documents\N64\N64\N64CartControl\native\vendor\libusb\libusb\hotplug.c;C:\Users\CSystem\Documents\N64\N64\N64CartControl\build\Release\obj\n64cart\native\vendor\libusb\libusb\hotplug.obj
+C:\Users\CSystem\Documents\N64\N64\N64CartControl\native\vendor\libusb\libusb\io.c;C:\Users\CSystem\Documents\N64\N64\N64CartControl\build\Release\obj\n64cart\native\vendor\libusb\libusb\io.obj
+C:\Users\CSystem\Documents\N64\N64\N64CartControl\native\vendor\libusb\libusb\strerror.c;C:\Users\CSystem\Documents\N64\N64\N64CartControl\build\Release\obj\n64cart\native\vendor\libusb\libusb\strerror.obj
+C:\Users\CSystem\Documents\N64\N64\N64CartControl\native\vendor\libusb\libusb\sync.c;C:\Users\CSystem\Documents\N64\N64\N64CartControl\build\Release\obj\n64cart\native\vendor\libusb\libusb\sync.obj
+C:\Users\CSystem\Documents\N64\N64\N64CartControl\native\vendor\libusb\libusb\os\events_windows.c;C:\Users\CSystem\Documents\N64\N64\N64CartControl\build\Release\obj\n64cart\native\vendor\libusb\libusb\os\events_windows.obj
+C:\Users\CSystem\Documents\N64\N64\N64CartControl\native\vendor\libusb\libusb\os\threads_windows.c;C:\Users\CSystem\Documents\N64\N64\N64CartControl\build\Release\obj\n64cart\native\vendor\libusb\libusb\os\threads_windows.obj
+C:\Users\CSystem\Documents\N64\N64\N64CartControl\native\vendor\libusb\libusb\os\windows_common.c;C:\Users\CSystem\Documents\N64\N64\N64CartControl\build\Release\obj\n64cart\native\vendor\libusb\libusb\os\windows_common.obj
+C:\Users\CSystem\Documents\N64\N64\N64CartControl\native\vendor\libusb\libusb\os\windows_usbdk.c;C:\Users\CSystem\Documents\N64\N64\N64CartControl\build\Release\obj\n64cart\native\vendor\libusb\libusb\os\windows_usbdk.obj
+C:\Users\CSystem\Documents\N64\N64\N64CartControl\native\vendor\libusb\libusb\os\windows_winusb.c;C:\Users\CSystem\Documents\N64\N64\N64CartControl\build\Release\obj\n64cart\native\vendor\libusb\libusb\os\windows_winusb.obj
+C:\Users\CSystem\Documents\N64\N64\N64CartControl\node_modules\node-gyp\src\win_delay_load_hook.cc;C:\Users\CSystem\Documents\N64\N64\N64CartControl\build\Release\obj\n64cart\win_delay_load_hook.obj

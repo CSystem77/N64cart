@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="..">
+      <UniqueIdentifier>{13ED4249-1F9C-5F0F-2651-29A73F3A7059}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\native">
+      <UniqueIdentifier>{751DE1B9-2CA6-B33D-2A40-92CBD5B002F3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\native\src">
+      <UniqueIdentifier>{F1003AD6-4B6D-45DF-3F56-5CAC869BF55E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{13ED4249-1F9C-5F0F-2651-29A73F3A7059}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\native">
+      <UniqueIdentifier>{751DE1B9-2CA6-B33D-2A40-92CBD5B002F3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\native\src">
+      <UniqueIdentifier>{F1003AD6-4B6D-45DF-3F56-5CAC869BF55E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{13ED4249-1F9C-5F0F-2651-29A73F3A7059}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\native">
+      <UniqueIdentifier>{751DE1B9-2CA6-B33D-2A40-92CBD5B002F3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\native\vendor">
+      <UniqueIdentifier>{E4CE6D6C-61A0-30A5-1618-931C62CAB93B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\native\vendor\romfs">
+      <UniqueIdentifier>{0FE03AA8-D766-B239-B153-27A3482F10C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{13ED4249-1F9C-5F0F-2651-29A73F3A7059}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\native">
+      <UniqueIdentifier>{751DE1B9-2CA6-B33D-2A40-92CBD5B002F3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\native\vendor">
+      <UniqueIdentifier>{E4CE6D6C-61A0-30A5-1618-931C62CAB93B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\native\vendor\libusb">
+      <UniqueIdentifier>{F9C908E1-3FF0-C6DD-7587-48CC89A84402}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\native\vendor\libusb\libusb">
+      <UniqueIdentifier>{F9C908E1-3FF0-C6DD-7587-48CC89A84402}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{13ED4249-1F9C-5F0F-2651-29A73F3A7059}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\native">
+      <UniqueIdentifier>{751DE1B9-2CA6-B33D-2A40-92CBD5B002F3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\native\vendor">
+      <UniqueIdentifier>{E4CE6D6C-61A0-30A5-1618-931C62CAB93B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\native\vendor\libusb">
+      <UniqueIdentifier>{F9C908E1-3FF0-C6DD-7587-48CC89A84402}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\native\vendor\libusb\libusb">
+      <UniqueIdentifier>{F9C908E1-3FF0-C6DD-7587-48CC89A84402}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{13ED4249-1F9C-5F0F-2651-29A73F3A7059}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\native">
+      <UniqueIdentifier>{751DE1B9-2CA6-B33D-2A40-92CBD5B002F3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\native\vendor">
+      <UniqueIdentifier>{E4CE6D6C-61A0-30A5-1618-931C62CAB93B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\native\vendor\libusb">
+      <UniqueIdentifier>{F9C908E1-3FF0-C6DD-7587-48CC89A84402}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\native\vendor\libusb\libusb">
+      <UniqueIdentifier>{F9C908E1-3FF0-C6DD-7587-48CC89A84402}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{13ED4249-1F9C-5F0F-2651-29A73F3A7059}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\native">
+      <UniqueIdentifier>{751DE1B9-2CA6-B33D-2A40-92CBD5B002F3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\native\vendor">
+      <UniqueIdentifier>{E4CE6D6C-61A0-30A5-1618-931C62CAB93B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\native\vendor\libusb">
+      <UniqueIdentifier>{F9C908E1-3FF0-C6DD-7587-48CC89A84402}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\native\vendor\libusb\libusb">
+      <UniqueIdentifier>{F9C908E1-3FF0-C6DD-7587-48CC89A84402}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{13ED4249-1F9C-5F0F-2651-29A73F3A7059}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\native">
+      <UniqueIdentifier>{751DE1B9-2CA6-B33D-2A40-92CBD5B002F3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\native\vendor">
+      <UniqueIdentifier>{E4CE6D6C-61A0-30A5-1618-931C62CAB93B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\native\vendor\libusb">
+      <UniqueIdentifier>{F9C908E1-3FF0-C6DD-7587-48CC89A84402}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\native\vendor\libusb\libusb">
+      <UniqueIdentifier>{F9C908E1-3FF0-C6DD-7587-48CC89A84402}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{13ED4249-1F9C-5F0F-2651-29A73F3A7059}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\native">
+      <UniqueIdentifier>{751DE1B9-2CA6-B33D-2A40-92CBD5B002F3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\native\vendor">
+      <UniqueIdentifier>{E4CE6D6C-61A0-30A5-1618-931C62CAB93B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\native\vendor\libusb">
+      <UniqueIdentifier>{F9C908E1-3FF0-C6DD-7587-48CC89A84402}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\native\vendor\libusb\libusb">
+      <UniqueIdentifier>{F9C908E1-3FF0-C6DD-7587-48CC89A84402}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{13ED4249-1F9C-5F0F-2651-29A73F3A7059}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\native">
+      <UniqueIdentifier>{751DE1B9-2CA6-B33D-2A40-92CBD5B002F3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\native\vendor">
+      <UniqueIdentifier>{E4CE6D6C-61A0-30A5-1618-931C62CAB93B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\native\vendor\libusb">
+      <UniqueIdentifier>{F9C908E1-3FF0-C6DD-7587-48CC89A84402}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\native\vendor\libusb\libusb">
+      <UniqueIdentifier>{F9C908E1-3FF0-C6DD-7587-48CC89A84402}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\native\vendor\libusb\libusb\os">
+      <UniqueIdentifier>{DB2A63E7-78A8-8114-E2B2-AA72F756CCE2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{13ED4249-1F9C-5F0F-2651-29A73F3A7059}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\native">
+      <UniqueIdentifier>{751DE1B9-2CA6-B33D-2A40-92CBD5B002F3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\native\vendor">
+      <UniqueIdentifier>{E4CE6D6C-61A0-30A5-1618-931C62CAB93B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\native\vendor\libusb">
+      <UniqueIdentifier>{F9C908E1-3FF0-C6DD-7587-48CC89A84402}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\native\vendor\libusb\libusb">
+      <UniqueIdentifier>{F9C908E1-3FF0-C6DD-7587-48CC89A84402}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\native\vendor\libusb\libusb\os">
+      <UniqueIdentifier>{DB2A63E7-78A8-8114-E2B2-AA72F756CCE2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{13ED4249-1F9C-5F0F-2651-29A73F3A7059}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\native">
+      <UniqueIdentifier>{751DE1B9-2CA6-B33D-2A40-92CBD5B002F3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\native\vendor">
+      <UniqueIdentifier>{E4CE6D6C-61A0-30A5-1618-931C62CAB93B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\native\vendor\libusb">
+      <UniqueIdentifier>{F9C908E1-3FF0-C6DD-7587-48CC89A84402}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\native\vendor\libusb\libusb">
+      <UniqueIdentifier>{F9C908E1-3FF0-C6DD-7587-48CC89A84402}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\native\vendor\libusb\libusb\os">
+      <UniqueIdentifier>{DB2A63E7-78A8-8114-E2B2-AA72F756CCE2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{13ED4249-1F9C-5F0F-2651-29A73F3A7059}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\native">
+      <UniqueIdentifier>{751DE1B9-2CA6-B33D-2A40-92CBD5B002F3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\native\vendor">
+      <UniqueIdentifier>{E4CE6D6C-61A0-30A5-1618-931C62CAB93B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\native\vendor\libusb">
+      <UniqueIdentifier>{F9C908E1-3FF0-C6DD-7587-48CC89A84402}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\native\vendor\libusb\libusb">
+      <UniqueIdentifier>{F9C908E1-3FF0-C6DD-7587-48CC89A84402}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\native\vendor\libusb\libusb\os">
+      <UniqueIdentifier>{DB2A63E7-78A8-8114-E2B2-AA72F756CCE2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{13ED4249-1F9C-5F0F-2651-29A73F3A7059}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\native">
+      <UniqueIdentifier>{751DE1B9-2CA6-B33D-2A40-92CBD5B002F3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\native\vendor">
+      <UniqueIdentifier>{E4CE6D6C-61A0-30A5-1618-931C62CAB93B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\native\vendor\libusb">
+      <UniqueIdentifier>{F9C908E1-3FF0-C6DD-7587-48CC89A84402}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\native\vendor\libusb\libusb">
+      <UniqueIdentifier>{F9C908E1-3FF0-C6DD-7587-48CC89A84402}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\native\vendor\libusb\libusb\os">
+      <UniqueIdentifier>{DB2A63E7-78A8-8114-E2B2-AA72F756CCE2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:">
+      <UniqueIdentifier>{F87FD356-0FEB-9BC5-D1FA-368C81420008}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users">
+      <UniqueIdentifier>{707347A1-1ABA-A9B2-9AF4-DE122F5D7F08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\CSystem">
+      <UniqueIdentifier>{80E0A56D-0168-31F7-77E3-3952C6A990B3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\CSystem\Documents">
+      <UniqueIdentifier>{A6B140C2-EC61-188F-22F2-AD1FFCF65561}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\CSystem\Documents\N64">
+      <UniqueIdentifier>{9A703B53-10ED-1B34-3946-C9D52ED80F17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\CSystem\Documents\N64\N64">
+      <UniqueIdentifier>{9A703B53-10ED-1B34-3946-C9D52ED80F17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\CSystem\Documents\N64\N64\N64CartControl">
+      <UniqueIdentifier>{4CE0EA31-7002-F106-BF3E-DBC900898752}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\CSystem\Documents\N64\N64\N64CartControl\node_modules">
+      <UniqueIdentifier>{126A39EA-1D28-5689-C126-0DA0AB5837A0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\CSystem\Documents\N64\N64\N64CartControl\node_modules\node-gyp">
+      <UniqueIdentifier>{49558BB4-6D34-CA91-A65D-85A65792DC11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\CSystem\Documents\N64\N64\N64CartControl\node_modules\node-gyp\src">
+      <UniqueIdentifier>{F1003AD6-4B6D-45DF-3F56-5CAC869BF55E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{13ED4249-1F9C-5F0F-2651-29A73F3A7059}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\native\src\addon.cc">
+      <Filter>..\native\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\native\src\cart.c">
+      <Filter>..\native\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\native\vendor\romfs\romfs.c">
+      <Filter>..\native\vendor\romfs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\native\vendor\libusb\libusb\core.c">
+      <Filter>..\native\vendor\libusb\libusb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\native\vendor\libusb\libusb\descriptor.c">
+      <Filter>..\native\vendor\libusb\libusb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\native\vendor\libusb\libusb\hotplug.c">
+      <Filter>..\native\vendor\libusb\libusb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\native\vendor\libusb\libusb\io.c">
+      <Filter>..\native\vendor\libusb\libusb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\native\vendor\libusb\libusb\strerror.c">
+      <Filter>..\native\vendor\libusb\libusb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\native\vendor\libusb\libusb\sync.c">
+      <Filter>..\native\vendor\libusb\libusb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\native\vendor\libusb\libusb\os\events_windows.c">
+      <Filter>..\native\vendor\libusb\libusb\os</Filter>
+    </ClCompile>
+    <ClCompile Include="..\native\vendor\libusb\libusb\os\threads_windows.c">
+      <Filter>..\native\vendor\libusb\libusb\os</Filter>
+    </ClCompile>
+    <ClCompile Include="..\native\vendor\libusb\libusb\os\windows_common.c">
+      <Filter>..\native\vendor\libusb\libusb\os</Filter>
+    </ClCompile>
+    <ClCompile Include="..\native\vendor\libusb\libusb\os\windows_usbdk.c">
+      <Filter>..\native\vendor\libusb\libusb\os</Filter>
+    </ClCompile>
+    <ClCompile Include="..\native\vendor\libusb\libusb\os\windows_winusb.c">
+      <Filter>..\native\vendor\libusb\libusb\os</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\CSystem\Documents\N64\N64\N64CartControl\node_modules\node-gyp\src\win_delay_load_hook.cc">
+      <Filter>C:\Users\CSystem\Documents\N64\N64\N64CartControl\node_modules\node-gyp\src</Filter>
+    </ClCompile>
+    <None Include="..\binding.gyp">
+      <Filter>..</Filter>
+    </None>
+  </ItemGroup>
+</Project>
